@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+h1{
+  width:70%;
+  font-size:3.5rem;
+  margin:1.5rem auto;
+  color:aqua;
+  background-color: blue;
+  padding:.6rem;
+  border-radius: 2.5rem;
+  text-shadow: 2px 2px 6px white;
+  border: 3px solid aqua;
+}
+#usercard{
+  width:45%;
+  height:30rem;
+  font-size:1.2rem;
+  margin:0 auto;
+  color:aqua;
+  border-radius: 2.5rem;
+ padding:.6rem;
+ background-color: blue;
+ background-image:url('./githublogo.png');
+ background-position: top;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+ border: 3px solid aqua;
+ text-shadow: 2px 2px 6px white;
+}
+#gitimg{
+  width:20%;
+}
+input[type=text], select {
+  height: 1.5rem;
+  margin-bottom:1rem;
+}
+button{
+  margin-bottom:1rem;
+  color:white;
+  text-shadow: 2px 2px 6px blue;
+  font-size:1rem;
+  background-color: red;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 2.5rem;
+  border: 3px solid blue;
+}
+body{
+  background-color: lightblue;
+  border: 1px solid gray;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px -2px white;
+  margin: 16px 8px;
+  padding:1rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
